@@ -1,0 +1,23 @@
+$color-primary: #00ffdd;
+$color-secondary: #00ccff;
+
+$color-light-1: #f2efee; // Light background
+$color-light-2: #eee7e4; // Light background
+
+$color-dark-1: #9b9b9b; // Dark background
+$color-dark-2: #4b4b4b; // Dark background
+$color-dark-3: #1a1a1a; // Dark background
+
+$gradient-1: linear-gradient(to right bottom, $color-primary, $color-dark-2);
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: mont;
+  src: url(../Montserrat-Regular.ttf);
+}
