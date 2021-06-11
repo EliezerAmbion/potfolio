@@ -274,27 +274,28 @@ nav {
   text-align: center;
 }
 
-.porfolio {
+.portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.porfolio__item {
+.portfolio__item {
   background-color: var(--clr-accent);
   overflow: hidden;
 }
 
-.porfolio__img {
+.portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  height: 10rem;
 }
 
-.porfolio__item:focus {
+.portfolio__item:focus {
   position: relative;
   z-index: 2;
 }
 
-.porfolio__img:hover,
-.porfolio__item:focus .porfolio__img {
+.portfolio__img:hover,
+.portfolio__item:focus .porfolio__img {
   transform: scale(1.2);
   opacity: 0.5;
 }
