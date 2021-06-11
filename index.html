@@ -11,7 +11,14 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="/src/sass/main.scss" />
+
+    <script src="./src/js/script.js" defer></script>
 
     <title>Eli's Portfolio</title>
   </head>
@@ -87,7 +94,7 @@
       </div>
       <!-- services -->
 
-      <a href="work" class="btn">My work</a>
+      <a href="#work" class="btn">My work</a>
     </section>
 
     <!-- About me -->
@@ -123,7 +130,11 @@
       </p>
 
       <div class="portfolio">
-        <a href="#" class="portfolio__item">
+        <a
+          href="https://eli-agenda.herokuapp.com/users/sign_in"
+          target="blank"
+          class="portfolio__item"
+        >
           <img
             src="./src/images/agenda-app.png"
             alt=""
@@ -131,39 +142,56 @@
           />
         </a>
 
-        <a href="#" class="portfolio__item">
+        <a
+          href="https://eliezerambion-pig-game.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
           <img src="./src/images/pig-game.png" alt="" class="portfolio__img" />
         </a>
 
-        <a href="#" class="portfolio__item">
+        <a
+          href="https://eliezerambion-tic-tac-toe-game.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
           <img src="./src/images/tictactoe.png" alt="" class="portfolio__img" />
         </a>
 
-        <a href="#" class="portfolio__item">
+        <a
+          href="https://eliezerambion-simple-calculator.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
           <img
             src="./src/images/calculator.png"
             alt=""
             class="portfolio__img"
           />
         </a>
+        <a
+          href="https://github.com/EliezerAmbion/Bank-App"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="./src/images/bank-app.png" alt="" class="portfolio__img" />
+        </a>
       </div>
     </section>
 
     <!-- footer -->
-    <footer>
-      <a href="" class="footer-link">hello@eli.com</a>
+    <footer class="footer">
+      <a href="" class="footer__link">eliezerambion@gmail.com</a>
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="" class="social-list__link">a</a>
+          <a href="" class="social-list__link"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link">b</a>
-        </li>
-        <li class="social-list__item">
-          <a href="" class="social-list__link">c</a>
-        </li>
-        <li class="social-list__item">
-          <a href="" class="social-list__link">d</a>
+          <a href="" class="social-list__link"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+          ></a>
         </li>
       </ul>
     </footer>
